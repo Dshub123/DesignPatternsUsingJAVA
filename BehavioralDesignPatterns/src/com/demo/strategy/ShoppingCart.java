@@ -4,6 +4,7 @@ package com.demo.strategy;
  * to a PaymentStrategy and allows the client to 
  * switch between different payment methods.
  * */
+
 public class ShoppingCart {
 	
 	private PaymentStrategy paymentStrategy;

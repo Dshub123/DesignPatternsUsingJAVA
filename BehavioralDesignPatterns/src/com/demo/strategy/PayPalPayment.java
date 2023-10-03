@@ -1,7 +1,8 @@
 package com.demo.strategy;
 
 public class PayPalPayment implements PaymentStrategy {
-    private String email;
+    
+	private String email;
 
     public PayPalPayment(String email) {
         this.email = email;

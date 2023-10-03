@@ -4,7 +4,9 @@ public class QuantityObserver implements OrderObserver {
 
     @Override
     public void updated(Order order) {
-        int count = order.getCount();
+        
+    	int count = order.getCount();
+    	
         if(count <= 5) {
             order.setShippingCost(10);
         } else {

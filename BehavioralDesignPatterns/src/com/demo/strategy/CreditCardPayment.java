@@ -1,7 +1,8 @@
 package com.demo.strategy;
 
 public class CreditCardPayment implements PaymentStrategy {
-    private String cardNumber;
+    
+	private String cardNumber;
     private String name;
     
     public CreditCardPayment(String cardNumber, String name) {
